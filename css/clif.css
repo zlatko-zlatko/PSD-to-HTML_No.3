@@ -1,0 +1,612 @@
+.bgimage {
+  background-image: url("../images/home.jpg");
+  background-position: center top;         
+  background-size: cover;
+  height: 800px;
+  position: relative;      
+} 
+
+.header > a {
+  color: rgba(252,252,249,0.9);  
+}
+
+.header>a:hover {
+  text-decoration: none;
+  color: rgba(252,252,249,0.9); 
+}
+
+.top { 
+  background-color: rgba(192,192,192,0.2);
+  text-align: right;
+  height: 25px;  
+  padding-top: 30px;         
+}
+
+.container-top {
+  margin-top: -25px;
+}
+
+.nav > li {
+  color: white;          
+}
+
+.navbar-nav li a:hover {
+  background-color: transparent;
+}
+
+.nav>li>a {
+  padding: 10px 0px;
+}
+
+.nav>li {
+  margin: 0px 5px;
+  cursor: pointer;
+  padding: 1px;
+  color: white;
+} 
+
+.nav li:last-child {
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 8px;
+  margin-top: -8px;
+}
+
+.nav li:last-child:hover {
+  background-color: rgba(0, 0, 0, 0.2); 
+  transition:all 0.2s linear 0s;
+} 
+
+.navbar-default {
+  background: transparent;
+  padding: 0px;
+  border: none;
+  margin: 0px;  
+}
+.nav {
+  margin-top: 20px;
+}
+
+.nav>li>a {
+  display: inline;	
+}         
+
+a {
+  display: inline-block;
+  text-decoration:none
+  color: white;
+}
+
+.nav > li:nth-child(1n+2):not(:last-of-type):after {
+  content: "";
+  display: block;
+  width: 0;
+  border-bottom: 2px solid;
+  margin: 10px auto;
+  transition:all 0.1s linear 0s;
+}
+
+.nav > li:nth-child(1n+2):hover:after {
+  width: 20px;
+}     	 
+
+.bottom-border:after {
+  content: "";
+  display: block;
+  width: 20px;
+  border-bottom: 2px solid;
+  margin: 10px auto;
+} 
+
+.slider { 
+  padding-top: 75px;  
+}
+
+h1.live-by {
+ 	color: #456c90;
+ 	font-weight: 400;
+}
+
+p.at-the-sea {
+ 	font-size: 1.3em;
+}
+
+.btn-view-rooms {
+  background-color: #456c90;
+  padding: 20px 30px 16px 30px;  
+  border-bottom: 4px solid #037777;  
+}
+.button-position {
+  margin-top: 200px;
+}
+
+.the-wild {
+  background-color: #ebeced;  
+  height: 690px;
+  margin-top: 190px; 
+}
+
+.beauty-text {
+  margin-top: 80px;
+  color: #1c414a;
+}
+
+.beauty-text p {
+  line-height: 30px;
+}
+.img-responsive {
+  width: 100%;
+}
+
+.small-images {
+  margin-top: 60px; 
+}
+
+#west-lg-image {
+  padding-top: 30px;
+  width: 100%;
+  display: inline;
+  height: auto;
+} 
+
+.item {
+  width: 100%;
+  height: auto; 
+}
+
+.section-header h2 {
+  padding: 50px 0 10px 0;  
+}
+
+.section-header h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  border-bottom: 3px solid #39c58f;
+  margin: 10px auto;
+}
+
+.rh-of-nature {
+  margin-top: 80px;  
+  background-image: url(../images/rhythm-bg.jpg);
+  background-size: cover;
+  background-position: center top;
+  height: 400px;
+} 
+
+.rhythm-of-nature-wrapper button {
+  background-color: #39a2c5;
+  border-radius: 1px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.rhythm-of-nature-wrapper button:hover {
+  background-color: #1e8190;
+}
+
+.rhythm-of-nature-wrapper {
+  
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.rhythm-of-nature-wrapper > h3 {
+  margin: 0px;
+  padding: 20px 0px 10px 45px;
+  font-weight: 510;
+}
+
+.rhythm-of-nature-wrapper > p {
+  margin: 0px;
+  padding: 5px 0px 20px 45px;
+  line-height: 24px;
+}
+
+.rhythm-of-nature-wrapper .btn {
+  margin-left: 45px;
+}
+
+.seculded {    
+  background-image: url(../images/seculded-bg.jpg);
+  background-size: cover;
+  background-position: center top;   
+  height: 400px;  
+} 
+
+.seculded-wrapper button {
+  background-color: #39a2c5;
+  border-radius: 1px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.seculded-wrapper button:hover {
+  background-color: #1e8190;
+}
+
+.seculded-wrapper {  
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.seculded-wrapper > h3 {
+  margin: 0px;
+  padding: 20px 0px 5px 45px;
+  font-weight: 510;
+}
+
+.seculded-wrapper > p {
+  margin: 0px;
+  padding: 5px 0px 20px 45px;;
+  line-height: 24px;
+}
+
+.seculded-wrapper .btn {
+  margin-left: 45px;
+}
+
+.elegant {    
+  background-image: url(../images/elegant-comfort-bg.jpg);
+  background-size: cover;
+  background-position: center top;   
+  height: 400px;  
+} 
+
+.elegant-wrapper button {
+  background-color: #39a2c5;
+  border-radius: 1px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.elegant-wrapper button:hover {
+  background-color: #1e8190;
+}
+
+.elegant-wrapper {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.elegant-wrapper > h3 {
+  margin: 0px;
+  padding: 20px 0px 10px 45px;
+  font-weight: 510;
+}
+
+.elegant-wrapper > p {
+  margin: 0px;
+  padding: 5px 0px 20px 45px;
+  line-height: 24px;
+}
+
+.elegant-wrapper .btn {
+  margin-left: 45px;
+}
+
+.book {
+  background-color: #12292f;
+  height: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.book p {
+  color: white;  
+  font-size: 22px; 
+}
+.book p, button {
+  display: inline-block;
+}
+
+.book button {
+  font-size: 22px;
+  padding: 6px 30px 6px 30px;
+  margin-left: 20px;
+  background-color: #1f8190;
+  border-color: #1f8190;   
+}
+
+ .book .btn-primary:hover {
+  background-color: #1f8190;
+  border-color: #1f8190;
+  outline-color: #1f8190;
+} 
+
+.book .btn-primary:active {
+  background-color: #1f8190;
+  border-color: #1f8190;
+  outline-color: #1f8190;}
+
+.book .btn-primary:focus {
+  background-color: #1f8190;
+  border-color: #1f8190;
+  outline-color: #1f8190;
+}
+
+.testimonials {   
+  background-image: url(../images/testimonials-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  box-sizing: content-box;
+  height: 700px;    
+  } 
+
+.test-cont {
+  padding: 0px 0px 100px 0px;
+ }
+ .carousel-inner-text {  
+  
+ }
+
+ .guest-review-text {
+  color: white;
+  padding: 40px 0px 10px 0px;
+ }
+
+ #carousel-example-generic01 {
+  background-color: rgba(255, 255, 255, 0.2);
+ }
+
+ .carousel-control.left { 
+  background-image: none;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+ }
+
+ blockquote {
+  border-left: none;
+  padding: 50px 30px;
+  font-weight: 100;
+  font-stretch: 10;
+  font-size: 2rem;
+  color: white;
+  font-style: italic;
+ }
+
+ .footer-bg {
+  background-color: #11292f;
+  color: white;
+  padding: 30px 0px;
+ }
+ 
+ .footer-bg a {
+  color: white;
+ }
+ .endfooter {
+  background-color: #11292f;
+  color: white;
+ }
+ .endfooter a {
+  color: white;
+ }
+ .endfooter .row {
+  border-top: 1px solid #223940;;
+ }
+ .endfooter p {
+  padding: 10px 0px;
+ }
+
+@media (max-width: 991px) {  
+
+  .navbar-nav>li {
+    font-size: 90%;           
+  } 
+
+  .nav>li {
+    margin: 0px 2px;
+    padding: 2px;
+  }
+
+  .nav li:last-child {
+    padding: 2px;
+    margin-top: 0px;
+  }
+
+  .slider h1 {
+   	font-size: 1.6em;
+  }
+
+  .btn-view-rooms {
+    margin-top: 100px; 
+  }
+
+  .the-wild {    
+    margin-top: 110px;
+    height: 900px;    
+  }
+
+  .beauty-text {
+    margin-top: 30px;
+  }
+  .carousel-container {
+    margin-top: 0px;
+  }  
+  .section-header h2 {
+    font-size: 30px;
+    padding: 10px;
+  } 
+}
+
+
+@media (max-width: 768px) {
+  .wrapper {
+    background-image: none;  
+    height: 500px; 
+  }
+
+  .slider {
+    background-image: url("../images/home.jpg");
+    background-position: center top;         
+    background-size: cover;
+    height: 400px;    
+  }  
+
+  div > a {
+    color: gray;
+  }          
+           
+  #logo01 {
+    display: none;
+  }
+
+  #logo02 {
+    width: 120px;
+  }
+          
+  .navbar-default {
+    background-color: white; 
+    border-radius: 4px;		         
+  }
+
+  .nav > li {
+    color: gray;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration:none
+  }  
+
+  .navbar-nav li:nth-child(1n+2):not(:last-of-type):after {  
+    border-bottom: none; 
+  }
+
+  .navbar-nav li.bottom-border:after {  
+  border-bottom: none;  
+  }       
+
+  .header>a {
+    display: none;            
+  }
+
+  .header-inverse {
+    margin-top: -16px;
+    color: gray;                
+  }  
+          
+  .nav li:last-child:hover {
+    background-color: transparent; 
+    border: 1px solid gray;
+  }
+  
+  .nav li:last-child {
+    border: 1px solid gray;
+    }
+
+  header {
+    margin-bottom: 0px;
+    padding-top: 10px;
+    position: relative;
+  }   
+
+  .beauty-text p {
+    display: none;
+  }
+
+  .header-inverse {
+    visibility: visible;
+  }
+
+  .the-wild {   
+    margin-top: -10px;
+    height: 600px;       
+  }
+
+  .the-wild h1 {
+    font-size: 25px;
+  }
+
+  #west-lg-image {
+    max-width: 500px;
+    margin: auto;
+    height: auto;
+    display: block;
+  } 
+
+  .beauty-text {
+    margin-top: 20px;
+  }
+
+  .section-header h2 {
+    font-size: 21px;
+    padding: 5px;
+  }
+
+  .destination > p {
+    line-height: 20px;
+    font-size: 13px;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+.the-wild {
+  height: 400px;
+ }
+    .testimonials {
+        height: 800px;
+    }
+}  
+ 
+ @media (min-width: 767px) {
+  #logo02 {
+    visibility: hidden;
+  }
+  #logo01 {
+    width: 150%;
+  } 
+  .navigation {
+    border-bottom: 1px solid rgba(252,252,249,0.3);
+    margin-top: 1px;                    
+  }
+
+
+
+ @media (max-width: 548px) {
+  .book p {
+    margin-top: 30px;
+  }
+
+ @media (max-width: 490px) {
+  .bt-check {
+    margin-top: -15px;  
+  }
+
+@media (max-width: 320px) {
+  .the-wild {
+    height: 200px;      
+  }
+      
+  #th-be  {
+    margin: 0;
+  }
+  #west-lg-image {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+        
+
+
+        
